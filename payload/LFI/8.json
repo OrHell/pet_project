@@ -1,0 +1,14 @@
+{
+    "req": [
+      {
+        "UA": "C:/WINDOWS/Repair/SAM",
+        "Body": "param%RND%=C:/WINDOWS/Repair/SAM",
+        "ARGS": "param%RND%=C:/WINDOWS/Repair/SAM",
+        "Cookie": "C:/WINDOWS/Repair/SAM",
+        "URL": "",
+        "Referer": "C:/WINDOWS/Repair/SAM",
+        "Headers": "C:/WINDOWS/Repair/SAM",
+        "Blocked": true
+      }
+    ]
+  }

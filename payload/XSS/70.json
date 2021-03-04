@@ -1,0 +1,14 @@
+{
+  "req": [
+    {
+      "UA": "",
+      "Body": "><svg onload=alert(1)>.gif",
+      "ARGS": "",
+      "Cookie": "",
+      "URL": "",
+      "Referer": "",
+      "Headers": "",
+      "Blocked": true
+    }
+  ]
+}

@@ -53,7 +53,7 @@ def table_payload_zone():
             all_zone_arguments = ' '.join(value)
             print('|{:^51}'.format(payload_path) + '|' + '{:^55}'.format(colour + all_zone_arguments + reset) + '|')
 
-    """Payload-Zone table elements=
+    """Payload-Zone table elements="""
     crossbar = '+' + 51 * '-' + '+' + 46 * '-' + '+'
     table_header_1 = crossbar + '\n|' + 22 * ' ' + f'{white_br}Payload{reset}' + 22 * ' ' + '|' \
                                      + 21 * ' ' + f'{white_br}Zone{reset}' + 21 * ' ' + '|\n' + \
@@ -66,7 +66,7 @@ def table_payload_zone():
     print(table_header_2)
     add_line_to_table_payload_zone(items_processing(failed_fn), red)
     print(crossbar)
-    End of the table"""
+ 
 
 
 def table_status_count_accuracy():

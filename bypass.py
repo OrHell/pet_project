@@ -74,7 +74,7 @@ class WAFBypass:
     @staticmethod
     def output(test_type, request_data, request):
         def base_str(colour, status_test):
-            bar.next()
+            print(f'{colour}{request_data.path} in {test_type}: {status_test}{s.RESET_ALL}')
        
         if request_data.blocked is True or request_data.blocked is None:
             if request.status_code == 403:
